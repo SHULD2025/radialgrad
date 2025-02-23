@@ -1,0 +1,7 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin-left: 750px;
+    margin-top: 350px;
+    background: radial-gradient(rgb(251, 255, 0), rgb(9, 255, 0));
+ }
