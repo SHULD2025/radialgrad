@@ -1,7 +1,27 @@
-div {
+body {
+    margin: 0;
+    padding: 0;
+}
+ div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.linear-gradient {
     height: 200px;
     width: 200px;
-    margin-left: 750px;
-    margin-top: 350px;
-    background: radial-gradient(rgb(251, 255, 0), rgb(9, 255, 0));
- }
+    background: linear-gradient(to bottom, red, blue);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.radial-gradient {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle, yellow, green);
+    display: flex;
+    align-items: center;
+    color: black;
+}
